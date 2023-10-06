@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wrodbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="连接马甲"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="95dp"
+        android:id="@+id/button_4"
+        />
+
+    <TextView
+        android:id="@+id/tv_connect_state"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="95dp"
+        android:textColor="#FFFFFF"
+        android:text="已连接JDY-31-SPP"/>
+
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="bottom"
+        android:text="关闭马甲测量" />
+
+</LinearLayout>

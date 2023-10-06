@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Waist posture</string>
+    <string name="progress_connecting" />
+    <string name="progress_scaning" />
+</resources>
